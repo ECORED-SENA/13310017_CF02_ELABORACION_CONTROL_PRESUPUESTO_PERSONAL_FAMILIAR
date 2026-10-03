@@ -6,13 +6,14 @@
         .titulo-principal__numero
           span 1
         h1 Comprobación del presupuesto personal
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center
         .col-xl.mb-4.mb-lg-0
           p La comprobación del presupuesto personal consiste en revisar si la información registrada durante la planeación financiera corresponde con lo que realmente ocurrió en un periodo determinado. Este proceso permite comparar los ingresos esperados con los ingresos recibidos, los gastos planeados con los gastos ejecutados, las deudas programadas con los pagos realizados y las metas financieras con los avances alcanzados. De esta manera, el presupuesto deja de ser un registro estático y se convierte en una herramienta de control que facilita la identificación de aciertos, diferencias y aspectos por mejorar en el manejo del dinero.
           p.mb-0 Realizar esta comprobación favorece la toma de decisiones financieras responsables, ya que permite determinar si los recursos fueron suficientes, identificar gastos no previstos, verificar el cumplimiento del ahorro, analizar el impacto de las deudas sobre la capacidad de pago y establecer si es necesario modificar las prioridades financieras. Además, fortalece hábitos de organización, seguimiento y control, especialmente cuando existen ingresos variables, obligaciones familiares, compras a crédito o metas de corto y mediano plazo (López, 2016).
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t1/img1.png', alt='').m-auto
+      Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.1 Concepto de comprobación presupuestal
       p.mb-5 A continuación, se presenta un video sobre la comprobación presupuestal, destacando su importancia para evaluar el cumplimiento del presupuesto personal, identificar desviaciones y fortalecer la toma de decisiones financieras mediante el análisis de ingresos, gastos, deudas, ahorro y metas financieras.
@@ -20,7 +21,7 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/Refs_sSmYtg?si=C5oetdcdjgLnVQVi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Comprobación presupuestal
-      p.mb-0 La información obtenida durante esta revisión permite convertir los datos del presupuesto en un insumo para la toma de decisiones. Si los gastos de alimentación, transporte o recreación superan lo planeado, es posible analizar las causas y realizar los ajustes necesarios. Si, por el contrario, se presenta un excedente, este puede destinarse al ahorro, al pago anticipado de una deuda o al cumplimiento de una meta prioritaria. Por esta razón, la comprobación presupuestal constituye una etapa fundamental para fortalecer el control de los recursos personales y familiares (Ministerio de Educación, 2022).
+      p.mb-0 La información obtenida durante esta revisión permite convertir los datos del presupuesto en un insumo para la toma de decisiones. Si los gastos de alimentación, transporte o recreación superan lo planeado, es posible analizar las causas y realizar los ajustes necesarios. Si, por el contrario, se presenta un excedente, este puede destinarse al ahorro, al pago anticipado de una deuda o al cumplimiento de una meta prioritaria. Por esta razón, la comprobación presupuestal constituye una etapa fundamental para fortalecer el control de los recursos personales y familiares (Ministerio de Educación Nacional, 2022).
       Separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.2 Importancia de revisar el presupuesto personal
@@ -112,7 +113,7 @@
                 figure
                   img(src='@/assets/curso/temas/t1/img13.jpg', alt='').m-auto
               .col-xl.caja-1_p
-                p.mb-0 Esta comparación permite identificar diferencias entre lo planeado y lo ejecutado. Por ejemplo, una persona pudo presupuestar $ 300.000 para alimentación y, al finalizar el mes, haber gastado $ 380.000. En este caso, existe una diferencia de $ 80.000 que debe analizarse para identificar su causa. De igual manera, puede haberse proyectado un ahorro de $ 100.000 y lograr únicamente $ 40.000. Estas diferencias no deben interpretarse únicamente como errores, sino como información que facilita el ajuste del presupuesto y mejora la toma de decisiones para el siguiente periodo.
+                p.mb-0 Esta comparación permite identificar diferencias entre lo planeado y lo ejecutado. Por ejemplo, una persona pudo presupuestar $300.000 para alimentación y, al finalizar el mes, haber gastado $ 380.000. En este caso, existe una diferencia de $ 80.000 que debe analizarse para identificar su causa. De igual manera, puede haberse proyectado un ahorro de $100.000 y lograr únicamente $40.000. Estas diferencias no deben interpretarse únicamente como errores, sino como información que facilita el ajuste del presupuesto y mejora la toma de decisiones para el siguiente periodo.
           p.mb-0 Para realizar esta comparación, se recomienda registrar el valor planeado, el valor ejecutado y la diferencia entre ambos. Si el valor ejecutado supera al planeado en un gasto, puede indicar un incremento en el consumo, un aumento de precios, falta de control o la aparición de imprevistos. Si el valor ejecutado es inferior al planeado, puede representar una reducción del gasto, una oportunidad de ahorro o una necesidad que finalmente no se presentó. Lo importante es analizar la causa de cada diferencia antes de tomar decisiones. La siguiente tabla presenta un ejemplo de comparación entre el presupuesto planeado y el presupuesto ejecutado.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
@@ -136,51 +137,51 @@
                   tbody
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Ingresos
-                      td.ajuste-border-tabla.texto-left $ 1.800.000
-                      td.ajuste-border-tabla.texto-left $ 1.800.000
-                      td.ajuste-border-tabla.texto-left $ 0
+                      td.ajuste-border-tabla.texto-left $1.800.000
+                      td.ajuste-border-tabla.texto-left $1.800.000
+                      td.ajuste-border-tabla.texto-left $0
                       td.texto-left El ingreso se recibió según lo esperado.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Arriendo
-                      td.ajuste-border-tabla.texto-left $ 600.000
-                      td.ajuste-border-tabla.texto-left $ 600.000
-                      td.ajuste-border-tabla.texto-left $ 0
+                      td.ajuste-border-tabla.texto-left $600.000
+                      td.ajuste-border-tabla.texto-left $600.000
+                      td.ajuste-border-tabla.texto-left $0
                       td.texto-left El gasto se mantuvo igual a lo planeado.
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Servicios públicos
-                      td.ajuste-border-tabla.texto-left $ 180.000
-                      td.ajuste-border-tabla.texto-left $ 220.000
-                      td.ajuste-border-tabla.texto-left $ 40.000
+                      td.ajuste-border-tabla.texto-left $180.000
+                      td.ajuste-border-tabla.texto-left $220.000
+                      td.ajuste-border-tabla.texto-left $40.000
                       td.texto-left El gasto fue mayor; se debe revisar el consumo o la tarifa.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Alimentación
-                      td.ajuste-border-tabla.texto-left $ 350.000
-                      td.ajuste-border-tabla.texto-left $ 420.000
-                      td.ajuste-border-tabla.texto-left $ 70.000
+                      td.ajuste-border-tabla.texto-left $350.000
+                      td.ajuste-border-tabla.texto-left $420.000
+                      td.ajuste-border-tabla.texto-left $70.000
                       td.texto-left Hubo un aumento frente a lo planeado.
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Transporte
-                      td.ajuste-border-tabla.texto-left $ 150.000
-                      td.ajuste-border-tabla.texto-left $ 130.000
-                      td.ajuste-border-tabla.texto-left -$ 20.000
+                      td.ajuste-border-tabla.texto-left $150.000
+                      td.ajuste-border-tabla.texto-left $130.000
+                      td.ajuste-border-tabla.texto-left -$20.000
                       td.texto-left Se gastó menos de lo previsto.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Deuda
-                      td.ajuste-border-tabla.texto-left $ 200.000
-                      td.ajuste-border-tabla.texto-left $ 200.000
-                      td.ajuste-border-tabla.texto-left $ 0
+                      td.ajuste-border-tabla.texto-left $200.000
+                      td.ajuste-border-tabla.texto-left $200.000
+                      td.ajuste-border-tabla.texto-left $0
                       td.texto-left La cuota se pagó según lo programado.
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Ahorro
-                      td.ajuste-border-tabla.texto-left $ 100.000
-                      td.ajuste-border-tabla.texto-left $ 50.000
-                      td.ajuste-border-tabla.texto-left -$ 50.000
+                      td.ajuste-border-tabla.texto-left $100.000
+                      td.ajuste-border-tabla.texto-left $50.000
+                      td.ajuste-border-tabla.texto-left -$50.000
                       td.texto-left No se cumplió totalmente la meta de ahorro.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Saldo disponible
-                      td.ajuste-border-tabla.texto-left $ 220.000
-                      td.ajuste-border-tabla.texto-left $ 180.000
-                      td.ajuste-border-tabla.texto-left -$ 40.000
+                      td.ajuste-border-tabla.texto-left $220.000
+                      td.ajuste-border-tabla.texto-left $180.000
+                      td.ajuste-border-tabla.texto-left -$40.000
                       td.texto-left El saldo final fue menor al esperado.
           p.mb-0 La información obtenida mediante esta comparación constituye una base para analizar el comportamiento financiero del periodo y definir los ajustes necesarios para fortalecer la administración de los recursos.
           Separador
@@ -206,7 +207,7 @@
                 .col-xl-6.mb-4
                   h4 Diferencia positiva en gasto
                   p Ocurre cuando se gasta más de lo planeado. 
-                  p #[b Ejemplo:] se presupuestaron $ 150.000 para transporte y se gastaron $ 190.000. 
+                  p #[b Ejemplo:] se presupuestaron $150.000 para transporte y se gastaron $190.000. 
                   p.mb-0 #[b Acción sugerida:] revisar la causa del aumento y ajustar el presupuesto del siguiente periodo.
                 .col-xl-6
                   figure
@@ -215,7 +216,7 @@
                 .col-xl-6.mb-4
                   h4 Diferencia negativa en gasto
                   p Ocurre cuando se gasta menos de lo planeado. 
-                  p #[b Ejemplo:] se presupuestaron $ 300.000 para alimentación y se gastaron $ 270.000. 
+                  p #[b Ejemplo:] se presupuestaron $300.000 para alimentación y se gastaron $270.000. 
                   p.mb-0 #[b Acción sugerida:] destinar el valor no utilizado al ahorro o al pago de una deuda.
                 .col-xl-6
                   figure
@@ -224,7 +225,7 @@
                 .col-xl-6.mb-4
                   h4 Faltante de dinero
                   p Se presenta cuando los ingresos no alcanzan para cubrir las salidas. 
-                  p #[b Ejemplo:] el saldo final esperado era de $ 100.000, pero faltaron $ 80.000. 
+                  p #[b Ejemplo:] el saldo final esperado era de $100.000, pero faltaron $80.000. 
                   p.mb-0 #[b Acción sugerida:] reducir gastos no prioritarios o revisar nuevas fuentes de ingreso.
                 .col-xl-6
                   figure
@@ -233,7 +234,7 @@
                 .col-xl-6.mb-4
                   h4 Excedente de dinero
                   p Ocurre cuando queda dinero después de cubrir los pagos y las obligaciones. 
-                  p #[b Ejemplo:] después de pagar los gastos y las deudas, quedan $ 120.000 disponibles.
+                  p #[b Ejemplo:] después de pagar los gastos y las deudas, quedan $120.000 disponibles.
                   p.mb-0 #[b Acción sugerida:] destinar el excedente al ahorro, al fondo de emergencia o a una meta financiera.
                 .col-xl-6
                   figure
@@ -242,7 +243,7 @@
                 .col-xl-6.mb-4
                   h4 Ingreso no recibido
                   p Se presenta cuando un ingreso esperado no se recibe durante el periodo. 
-                  p #[b Ejemplo:] se esperaba una comisión de $ 200.000, pero no fue pagada. 
+                  p #[b Ejemplo:] se esperaba una comisión de $200.000, pero no fue pagada. 
                   p.mb-0 #[b Acción sugerida:] evitar comprometer ingresos variables antes de recibirlos.
                 .col-xl-6
                   figure
@@ -260,7 +261,7 @@
                 .col-xl-6.mb-4
                   h4 Meta no cumplida
                   p Se presenta cuando no se alcanza el ahorro o el avance esperado. 
-                  p #[b Ejemplo:] se planeó ahorrar $ 100.000 y solo se ahorraron $ 40.000. 
+                  p #[b Ejemplo:] se planeó ahorrar $100.000 y solo se ahorraron $40.000. 
                   p.mb-0 #[b Acción sugerida:] revisar los gastos y ajustar la meta para el siguiente periodo.
                 .col-xl-6
                   figure
@@ -278,7 +279,7 @@
                   img(src='@/assets/curso/temas/t1/img23.jpg', alt='').m-auto
               .col-xl.caja-1_p
                 p.mb-0 En los ingresos se comprueba que el valor y la fecha de recepción coincidan con lo registrado. En los gastos se verifica que correspondan a las necesidades, los consumos y las obligaciones del periodo. Cuando se desarrolla una actividad independiente o productiva, también es necesario revisar los costos asociados con la generación de ingresos, como insumos, empaques, transporte o materiales. En las deudas se verifican las cuotas, las fechas de pago, los intereses y los saldos pendientes, mientras que, en el ahorro, se confirma que el dinero haya sido realmente separado.
-          p.mb-0 Por ejemplo, si una persona registra ventas por $ 500.000, pero no descuenta $ 180.000 correspondientes a insumos, puede creer que dispone de más dinero del que realmente tiene. De igual manera, si no registra una cuota pendiente, puede comprometer recursos destinados a cumplir esa obligación. Por ello, verificar cada componente permite conocer el saldo real y realizar los ajustes necesarios para el siguiente periodo. Los principales componentes que deben verificarse son los siguientes:
+          p.mb-0 Por ejemplo, si una persona registra ventas por $500.000, pero no descuenta $180.000 correspondientes a insumos, puede creer que dispone de más dinero del que realmente tiene. De igual manera, si no registra una cuota pendiente, puede comprometer recursos destinados a cumplir esa obligación. Por ello, verificar cada componente permite conocer el saldo real y realizar los ajustes necesarios para el siguiente periodo. Los principales componentes que deben verificarse son los siguientes:
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t1/img24.png', alt='').m-auto
@@ -287,7 +288,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img25.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Ingresos fijos").ajuste-cajaAcordion.ajuste-vineta
               p #[b Verificación:] valor recibido, fecha de pago y fuente del ingreso.
               p #[b Soporte o evidencia:] comprobante de nómina, consignación o extracto.
@@ -306,7 +307,7 @@
               p.mb-3 #[b Riesgo:] desconocer en qué se está utilizando el dinero.
       .row.align-items-center.mb-0
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Costos").ajuste-cajaAcordion.ajuste-vineta
               p #[b Verificación:] recursos utilizados para generar ingresos en una actividad independiente.
               p #[b Soporte o evidencia:] facturas de insumos, transporte, empaques o materiales.
@@ -435,7 +436,7 @@
                 img(src='@/assets/curso/temas/t1/img5.svg', alt='').m-auto
             .col-xl
               p.mb-0 En la práctica, esta revisión permite identificar si el presupuesto refleja la realidad de quien lo elabora. Por ejemplo, si una persona tiene una deuda vencida, pero destina una parte importante de sus ingresos a compras no necesarias, existe una falta de coherencia entre sus obligaciones y sus decisiones de gasto. También puede ocurrir que se haya planeado ahorrar, pero no se separó el dinero debido al aumento de los gastos variables. En estos casos, resulta necesario reorganizar las prioridades financieras.
-          p.mb-0 Para revisar la coherencia, se recomienda comparar las necesidades identificadas al inicio del periodo, los valores realmente pagados y los resultados obtenidos. Si las necesidades básicas quedaron cubiertas, las deudas se pagaron oportunamente y se logró avanzar en una meta financiera, el presupuesto refleja un manejo equilibrado de los recursos. En caso contrario, será necesario ajustar las prioridades para el siguiente periodo (Ministerio de Educación, 2022). Los principales aspectos que permiten evaluar la coherencia entre las necesidades y los resultados del presupuesto son los siguientes:
+          p.mb-0 Para revisar la coherencia, se recomienda comparar las necesidades identificadas al inicio del periodo, los valores realmente pagados y los resultados obtenidos. Si las necesidades básicas quedaron cubiertas, las deudas se pagaron oportunamente y se logró avanzar en una meta financiera, el presupuesto refleja un manejo equilibrado de los recursos. En caso contrario, será necesario ajustar las prioridades para el siguiente periodo (Ministerio de Educación Nacional, 2022). Los principales aspectos que permiten evaluar la coherencia entre las necesidades y los resultados del presupuesto son los siguientes:
       .bg-slider.mb-0
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -542,9 +543,9 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img50.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Revisar solo el saldo final").ajuste-cajaAcordion.ajuste-vineta
-              p #[b Ejemplo:] sobran $ 50.000, pero no se analizan los gastos ni las deudas.
+              p #[b Ejemplo:] sobran $50.000, pero no se analizan los gastos ni las deudas.
               p #[b Consecuencia:] pueden ocultarse pagos pendientes o un manejo desordenado de los recursos.
               p.mb-3 #[b Acción correctiva:] revisar cada componente del presupuesto.
             .row(titulo="No registrar gastos pequeños").ajuste-cajaAcordion.ajuste-vineta
@@ -556,12 +557,12 @@
               p #[b Consecuencia:] comprometer recursos que aún no están disponibles.
               p.mb-3 #[b Acción correctiva:] registrar los ingresos variables únicamente cuando sean seguros o se hayan recibido.
             .row(titulo="Confundir el ingreso con la ganancia").ajuste-cajaAcordion.ajuste-vineta
-              p #[b Ejemplo:] registrar $ 500.000 por ventas sin descontar los insumos.
+              p #[b Ejemplo:] registrar $500.000 por ventas sin descontar los insumos.
               p #[b Consecuencia:] calcular un saldo disponible superior al real.
               p.mb-3 #[b Acción correctiva:] descontar los costos antes de determinar el dinero disponible.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="No actualizar las deudas").ajuste-cajaAcordion.ajuste-vineta
               p #[b Ejemplo:] olvidar cuotas, intereses o saldos pendientes.
               p #[b Consecuencia:] afectar la capacidad de pago.

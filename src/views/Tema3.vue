@@ -6,13 +6,14 @@
         .titulo-principal__numero
           span 3
         h1 Análisis de resultados y toma de decisiones financieras
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center
         .col-xl.mb-4.mb-lg-0
           p El análisis de resultados y la toma de decisiones financieras constituyen la etapa en la que la información obtenida del presupuesto se utiliza para definir acciones de mejora. Después de comprobar los valores registrados e interpretar los indicadores financieros, es necesario identificar las causas de los resultados obtenidos y establecer decisiones que fortalezcan la administración de los recursos.
           p.mb-0 Este proceso permite reconocer qué factores influyeron en el comportamiento del presupuesto, cuáles gastos o deudas afectaron el saldo disponible, cómo avanzaron las metas financieras y qué ajustes conviene realizar para mejorar la planeación del siguiente periodo. Así, el presupuesto deja de ser únicamente un registro de información y se convierte en una herramienta para orientar decisiones financieras responsables.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t3/img1.png', alt='').m-auto
+      Separador
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Concepto de análisis de resultados
       .row.justify-content-center.align-items-center.mb-5
@@ -111,14 +112,14 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t3/img14.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Comparación planeado-ejecutado").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿En qué consiste?] Revisar el valor presupuestado frente al valor realmente utilizado.
-              p #[b Ejemplo práctico:] se planeó gastar $ 300.000 en alimentación y se gastaron $ 380.000.
+              p #[b Ejemplo práctico:] se planeó gastar $300.000 en alimentación y se gastaron $380.000.
               p.mb-3 #[b Utilidad:] permite identificar diferencias en cada concepto del presupuesto.
             .row(titulo="Análisis de variaciones").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿En qué consiste?] Calcular aumentos o disminuciones frente a lo planeado o a periodos anteriores.
-              p #[b Ejemplo práctico:] el gasto en servicios pasó de $ 180.000 a $ 230.000.
+              p #[b Ejemplo práctico:] el gasto en servicios pasó de $180.000 a $230.000.
               p.mb-3 #[b Utilidad:] ayuda a reconocer cambios que requieren explicación.
             .row(titulo="Clasificación por prioridades").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿En qué consiste?] Separar los gastos indispensables, las deudas, el ahorro y los gastos aplazables.
@@ -130,10 +131,10 @@
               p.mb-3 #[b Utilidad:] permite corregir el origen del problema financiero.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Comparación entre periodos").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿En qué consiste?] Revisar los resultados de un periodo frente a otro.
-              p #[b Ejemplo práctico:] en abril se ahorraron $ 80.000 y en mayo no se logró ahorrar.
+              p #[b Ejemplo práctico:] en abril se ahorraron $80.000 y en mayo no se logró ahorrar.
               p.mb-3 #[b Utilidad:] ayuda a identificar comportamientos repetidos o cambios importantes.
             .row(titulo="Revisión de porcentajes").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿En qué consiste?] Expresar los gastos, las deudas o el ahorro como parte del ingreso.
@@ -141,11 +142,11 @@
               p.mb-3 #[b Utilidad:] permite medir el peso de cada concepto dentro del presupuesto.
             .row(titulo="Análisis del saldo disponible").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿En qué consiste?] Revisar el dinero que queda después de cubrir las obligaciones.
-              p #[b Ejemplo práctico:] después de pagar los gastos y las deudas, quedan $ 60.000.
+              p #[b Ejemplo práctico:] después de pagar los gastos y las deudas, quedan $60.000.
               p.mb-3 #[b Utilidad:] permite establecer si existe margen para imprevistos o si el presupuesto está ajustado.
             .row(titulo="Evaluación de metas").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿En qué consiste?] Comparar el avance real frente al avance planeado.
-              p #[b Ejemplo práctico:] se debía ahorrar $ 100.000, pero solo se ahorraron $ 40.000.
+              p #[b Ejemplo práctico:] se debía ahorrar $100.000, pero solo se ahorraron $40.000.
               p.mb-3 #[b Utilidad:] permite ajustar el plazo, el valor del ahorro o la prioridad de la meta.
         .col-xl-auto(data-aos="fade-left")
           figure.d-none.d-xl-block
@@ -408,7 +409,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t3/img42.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Ahorrar para emergencias").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿Cuándo puede considerarse?] Cuando existe saldo disponible o es posible separar un valor fijo.
               p #[b Pregunta de análisis:] ¿Tengo dinero reservado para imprevistos?
@@ -427,7 +428,7 @@
               p.mb-3 #[b Recomendación práctica:] planificar el gasto y evitar endeudarse sin un análisis previo.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Pagar una deuda anticipadamente").ajuste-cajaAcordion.ajuste-vineta
               p #[b ¿Cuándo puede considerarse?] Cuando existe un excedente y la deuda genera intereses.
               p #[b Pregunta de análisis:] ¿Conviene reducir el saldo o los intereses?
@@ -607,7 +608,7 @@
                   figure
                     img(src='@/assets/curso/temas/t3/img58.png', alt='' style="max-width: 500px").m-auto
       p.mb-5 Otros resultados también requieren ajustes para fortalecer el presupuesto y mejorar la administración de los recursos.
-      SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+      SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
         .tarjeta.color-acento-botones.fit___card-sinbordes
           .row.justify-content-center.mb-4
             .col-12

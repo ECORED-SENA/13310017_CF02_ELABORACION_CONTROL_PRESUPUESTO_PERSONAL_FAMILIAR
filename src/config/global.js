@@ -46,7 +46,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Importancia de revisar el presupuesto persona',
+            titulo: 'Importancia de revisar el presupuesto personal',
             hash: 't_1_2',
           },
           {
@@ -91,7 +91,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Concepto de análisis financiero persona',
+            titulo: 'Concepto de análisis financiero personal',
             hash: 't_2_1',
           },
           {
@@ -385,7 +385,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Educación Nacional. (2022). Orientaciones pedagógicas para la educación económica y financiera.',
+        'Ministerio de Educación Nacional. (2022). Mi plan, mi vida y mi futuro. Orientaciones pedagógicas para la educación económica y financiera.',
       link: 'https://www.mineducacion.gov.co/1780/articles-340033_Orientaciones_Edu_economica_financiera_vfinal.pdf',
     },
     {
@@ -406,7 +406,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06 - Responsable ecosistema virtual de recursos educativos digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -470,13 +470,13 @@ export default {
         },
         {
           nombre: 'María Carolina Tamayo López',
-          cargo: 'Locución',
+          cargo: 'locutora',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'German Acosta Ramos',
-          cargo: 'Locución',
+          cargo: 'locutor',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -487,25 +487,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
           nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
